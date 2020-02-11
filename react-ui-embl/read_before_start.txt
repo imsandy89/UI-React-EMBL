@@ -6,3 +6,4 @@
 6. go to terminal and make base directory to react-ui-embl as : [cd c://work/fullstack/react/trunk/react-ui-embl]
 7. run command npm install here
 8. once npm install finishes, you can see, node module folder has been addded to directory react-ui-embl. run command npm start
+9. App will start at : http://localhost:3000/
