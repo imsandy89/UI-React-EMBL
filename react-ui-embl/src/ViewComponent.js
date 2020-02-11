@@ -67,7 +67,7 @@ export default class ViewComponent extends Component {
                                     <td>{person.hobby != null ? person.hobby.toString() : null}</td>
                                     <td>
                                         <button className="action" onClick={() => this.deletePerson(person.id, index)}> Delete</button> 
-                                        <button className="action" onClick={() => this.updatePerson(person.id)}> Update</button>
+                                        <button className="action blocked" onClick={() => this.updatePerson(person.id)}> Update </button>
                                     </td>
                                 </tr>
                             )
